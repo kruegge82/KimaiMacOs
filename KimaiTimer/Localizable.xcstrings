@@ -1,0 +1,1856 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%d min ago": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vor %d Min."
+          }
+        }
+      }
+    },
+    "%d minutes": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%d Minuten"
+          }
+        }
+      }
+    },
+    "%d projects and %d activities, loaded %@.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$d Projekte und %2$d Tätigkeiten, geladen am %3$@."
+          }
+        }
+      }
+    },
+    "A secure connection to the server could not be established.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Es konnte keine sichere Verbindung zum Server aufgebaut werden."
+          }
+        }
+      }
+    },
+    "API password": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "API-Passwort"
+          }
+        }
+      }
+    },
+    "API token": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "API-Token"
+          }
+        }
+      }
+    },
+    "Activities": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tätigkeiten"
+          }
+        }
+      }
+    },
+    "Activity": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tätigkeit"
+          }
+        }
+      }
+    },
+    "Add Entry…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eintrag hinzufügen …"
+          }
+        }
+      }
+    },
+    "Add a finished entry (⌘N)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abgeschlossenen Eintrag hinzufügen (⌘N)"
+          }
+        }
+      }
+    },
+    "Adjust…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anpassen …"
+          }
+        }
+      }
+    },
+    "Another change is still being saved. Try again in a moment.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eine andere Änderung wird noch gespeichert. Versuche es gleich noch einmal."
+          }
+        }
+      }
+    },
+    "Ask about idle time while a timer runs": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bei Inaktivität nachfragen"
+          }
+        }
+      }
+    },
+    "Back to all projects": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zurück zu allen Projekten"
+          }
+        }
+      }
+    },
+    "Billable": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrechenbar"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abbrechen"
+          }
+        }
+      }
+    },
+    "Changing the duration moves the end. For example 1:30, 1h 30m or 1,5.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dauer ändern passt die Endzeit an. Beispiel: 1:30, 1h 30m oder 1,5."
+          }
+        }
+      }
+    },
+    "Check Connection": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbindung prüfen"
+          }
+        }
+      }
+    },
+    "Choose a project and an activity.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wähle ein Projekt und eine Tätigkeit."
+          }
+        }
+      }
+    },
+    "Choose a time after %@, when the running timer began.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wähle eine Zeit nach %@, dem Beginn des laufenden Timers."
+          }
+        }
+      }
+    },
+    "Choose project and activity": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Projekt und Tätigkeit wählen"
+          }
+        }
+      }
+    },
+    "Choose project…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Projekt wählen …"
+          }
+        }
+      }
+    },
+    "Clear Search": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Suche löschen"
+          }
+        }
+      }
+    },
+    "Connect": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbinden"
+          }
+        }
+      }
+    },
+    "Connect Kimai Timer to your Kimai server to start tracking.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbinde Kimai Timer mit deinem Kimai-Server, um Zeiten zu erfassen."
+          }
+        }
+      }
+    },
+    "Connect to Kimai": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mit Kimai verbinden"
+          }
+        }
+      }
+    },
+    "Connected to Kimai %@ as %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbunden mit Kimai %1$@ als %2$@"
+          }
+        }
+      }
+    },
+    "Connection": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbindung"
+          }
+        }
+      }
+    },
+    "Contacting Kimai…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai wird kontaktiert …"
+          }
+        }
+      }
+    },
+    "Counts as idle after": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inaktiv nach"
+          }
+        }
+      }
+    },
+    "Create an API token in Kimai under your profile › API access. It is stored in your Keychain.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erstelle in Kimai unter deinem Profil › API-Zugang ein API-Token. Es wird in deinem Schlüsselbund gespeichert."
+          }
+        }
+      }
+    },
+    "Delete": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Löschen"
+          }
+        }
+      }
+    },
+    "Delete this entry?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diesen Eintrag löschen?"
+          }
+        }
+      }
+    },
+    "Delete…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Löschen …"
+          }
+        }
+      }
+    },
+    "Description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beschreibung"
+          }
+        }
+      }
+    },
+    "Disconnect": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trennen"
+          }
+        }
+      }
+    },
+    "Disconnect from Kimai?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbindung zu Kimai trennen?"
+          }
+        }
+      }
+    },
+    "Disconnect…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbindung trennen …"
+          }
+        }
+      }
+    },
+    "Dismiss": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schließen"
+          }
+        }
+      }
+    },
+    "Duplicate…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duplizieren …"
+          }
+        }
+      }
+    },
+    "Duration": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dauer"
+          }
+        }
+      }
+    },
+    "Edit": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bearbeiten"
+          }
+        }
+      }
+    },
+    "Edit Entry": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eintrag bearbeiten"
+          }
+        }
+      }
+    },
+    "Edit Running Entry": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Laufenden Eintrag bearbeiten"
+          }
+        }
+      }
+    },
+    "Edit the running entry": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Laufenden Eintrag bearbeiten"
+          }
+        }
+      }
+    },
+    "Edit…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bearbeiten …"
+          }
+        }
+      }
+    },
+    "Elapsed time": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verstrichene Zeit"
+          }
+        }
+      }
+    },
+    "End": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ende"
+          }
+        }
+      }
+    },
+    "End of work": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arbeitsende"
+          }
+        }
+      }
+    },
+    "Enter the address of your Kimai server and your credentials.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gib die Adresse deines Kimai-Servers und deine Zugangsdaten ein."
+          }
+        }
+      }
+    },
+    "Enter the duration like 1:30, 1h 30m or 1,5.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gib die Dauer z. B. als 1:30, 1h 30m oder 1,5 ein."
+          }
+        }
+      }
+    },
+    "Error: %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fehler: %@"
+          }
+        }
+      }
+    },
+    "Exported": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exportiert"
+          }
+        }
+      }
+    },
+    "Exported – Kimai may not allow changes": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exportiert – Kimai lässt Änderungen eventuell nicht zu"
+          }
+        }
+      }
+    },
+    "Fills in this task": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Übernimmt diese Aufgabe"
+          }
+        }
+      }
+    },
+    "For example 1:30, 1h 30m, 90m or 1,5 (hours)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zum Beispiel 1:30, 1h 30m, 90m oder 1,5 (Stunden)"
+          }
+        }
+      }
+    },
+    "General": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allgemein"
+          }
+        }
+      }
+    },
+    "Global shortcut": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Globales Tastenkürzel"
+          }
+        }
+      }
+    },
+    "Keep Time": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zeit behalten"
+          }
+        }
+      }
+    },
+    "Kimai %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai %@"
+          }
+        }
+      }
+    },
+    "Kimai Timer books your time directly into your own Kimai installation.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai Timer bucht deine Zeiten direkt in deine eigene Kimai-Installation."
+          }
+        }
+      }
+    },
+    "Kimai Timer, no timer running": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai Timer, kein Timer aktiv"
+          }
+        }
+      }
+    },
+    "Kimai Timer, timer running": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai Timer, Timer läuft"
+          }
+        }
+      }
+    },
+    "Kimai could not find this record. It may have been deleted.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai hat diesen Eintrag nicht gefunden. Möglicherweise wurde er gelöscht."
+          }
+        }
+      }
+    },
+    "Kimai did not accept the entry: %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai hat den Eintrag nicht angenommen: %@"
+          }
+        }
+      }
+    },
+    "Kimai did not answer in time.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai hat nicht rechtzeitig geantwortet."
+          }
+        }
+      }
+    },
+    "Kimai did not return any projects you can book time on.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai hat keine Projekte geliefert, auf die du buchen kannst."
+          }
+        }
+      }
+    },
+    "Kimai did not save these tags: %@. Your account may only be allowed to use existing tags.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai hat diese Schlagwörter nicht gespeichert: %@. Dein Konto darf vermutlich nur vorhandene Schlagwörter verwenden."
+          }
+        }
+      }
+    },
+    "Kimai rejected the credentials. Check the API token in Settings.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai hat die Zugangsdaten abgelehnt. Prüfe das API-Token in den Einstellungen."
+          }
+        }
+      }
+    },
+    "Kimai reported an error (%d).": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai hat einen Fehler gemeldet (%d)."
+          }
+        }
+      }
+    },
+    "Kimai reported an error (%d): %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai hat einen Fehler gemeldet (%1$d): %2$@"
+          }
+        }
+      }
+    },
+    "Kimai server": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai-Server"
+          }
+        }
+      }
+    },
+    "Load Earlier Entries": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frühere Einträge laden"
+          }
+        }
+      }
+    },
+    "Loading entries…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einträge werden geladen …"
+          }
+        }
+      }
+    },
+    "More actions": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weitere Aktionen"
+          }
+        }
+      }
+    },
+    "More ways to start": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Weitere Startoptionen"
+          }
+        }
+      }
+    },
+    "New Entry": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neuer Eintrag"
+          }
+        }
+      }
+    },
+    "New Entry…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neuer Eintrag …"
+          }
+        }
+      }
+    },
+    "No Customer": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ohne Kunde"
+          }
+        }
+      }
+    },
+    "No Entries Yet": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noch keine Einträge"
+          }
+        }
+      }
+    },
+    "No Matching Entries": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine passenden Einträge"
+          }
+        }
+      }
+    },
+    "No Projects": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keine Projekte"
+          }
+        }
+      }
+    },
+    "No description": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ohne Beschreibung"
+          }
+        }
+      }
+    },
+    "No entry matches “%@”.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kein Eintrag passt zu „%@“."
+          }
+        }
+      }
+    },
+    "No project": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kein Projekt"
+          }
+        }
+      }
+    },
+    "None": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keiner"
+          }
+        }
+      }
+    },
+    "None chosen": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nichts gewählt"
+          }
+        }
+      }
+    },
+    "Open Kimai Timer": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai Timer öffnen"
+          }
+        }
+      }
+    },
+    "Open Kimai in Browser": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai im Browser öffnen"
+          }
+        }
+      }
+    },
+    "Open Settings": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen öffnen"
+          }
+        }
+      }
+    },
+    "Open at login": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bei der Anmeldung öffnen"
+          }
+        }
+      }
+    },
+    "Open – the timer starts running": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Offen – der Timer läuft los"
+          }
+        }
+      }
+    },
+    "Paste API password": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "API-Passwort einfügen"
+          }
+        }
+      }
+    },
+    "Paste API token": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "API-Token einfügen"
+          }
+        }
+      }
+    },
+    "Press shortcut…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tastenkürzel drücken …"
+          }
+        }
+      }
+    },
+    "Project": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Projekt"
+          }
+        }
+      }
+    },
+    "Project and activity": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Projekt und Tätigkeit"
+          }
+        }
+      }
+    },
+    "Projects": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Projekte"
+          }
+        }
+      }
+    },
+    "Projects and activities": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Projekte und Tätigkeiten"
+          }
+        }
+      }
+    },
+    "Quit": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Beenden"
+          }
+        }
+      }
+    },
+    "Recent Tasks": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Letzte Aufgaben"
+          }
+        }
+      }
+    },
+    "Recently Used": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zuletzt verwendet"
+          }
+        }
+      }
+    },
+    "Record Shortcut": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tastenkürzel festlegen …"
+          }
+        }
+      }
+    },
+    "Refresh": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aktualisieren"
+          }
+        }
+      }
+    },
+    "Reload": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Neu laden"
+          }
+        }
+      }
+    },
+    "Reload Projects and Activities": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Projekte und Tätigkeiten neu laden"
+          }
+        }
+      }
+    },
+    "Reload entries, projects and activities (⌘R)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einträge, Projekte und Tätigkeiten neu laden (⌘R)"
+          }
+        }
+      }
+    },
+    "Remove shortcut": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tastenkürzel entfernen"
+          }
+        }
+      }
+    },
+    "Removes the token from the Keychain. Your entries stay in Kimai.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entfernt das Token aus dem Schlüsselbund. Deine Einträge bleiben in Kimai erhalten."
+          }
+        }
+      }
+    },
+    "Running timer": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Laufender Timer"
+          }
+        }
+      }
+    },
+    "Save": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sichern"
+          }
+        }
+      }
+    },
+    "Search activity": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tätigkeit suchen"
+          }
+        }
+      }
+    },
+    "Search customer, project or activity": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kunde, Projekt oder Tätigkeit suchen"
+          }
+        }
+      }
+    },
+    "Search entries": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einträge durchsuchen"
+          }
+        }
+      }
+    },
+    "Separated by commas": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Durch Kommas getrennt"
+          }
+        }
+      }
+    },
+    "Set Up Connection…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbindung einrichten …"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Einstellungen"
+          }
+        }
+      }
+    },
+    "Show Kimai Timer from anywhere": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kimai Timer von überall einblenden"
+          }
+        }
+      }
+    },
+    "Show seconds in the menu bar": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sekunden in der Menüleiste anzeigen"
+          }
+        }
+      }
+    },
+    "Showing data from %@.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Angezeigt wird der Stand von %@."
+          }
+        }
+      }
+    },
+    "Sign in with": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anmelden mit"
+          }
+        }
+      }
+    },
+    "Start": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start"
+          }
+        }
+      }
+    },
+    "Start Earlier…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Früher starten …"
+          }
+        }
+      }
+    },
+    "Start This Task Again": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diese Aufgabe erneut starten"
+          }
+        }
+      }
+    },
+    "Start Timer": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Timer starten"
+          }
+        }
+      }
+    },
+    "Start a timer above or add a finished entry.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starte oben einen Timer oder füge einen abgeschlossenen Eintrag hinzu."
+          }
+        }
+      }
+    },
+    "Start at %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Um %@ starten"
+          }
+        }
+      }
+    },
+    "Start at End of Last Entry (%@)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Am Ende des letzten Eintrags starten (%@)"
+          }
+        }
+      }
+    },
+    "Start or Stop Timer": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Timer starten oder stoppen"
+          }
+        }
+      }
+    },
+    "Start the timer (↩)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Timer starten (↩)"
+          }
+        }
+      }
+    },
+    "Started at %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gestartet um %@"
+          }
+        }
+      }
+    },
+    "Starts a timer for this task": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Startet einen Timer für diese Aufgabe"
+          }
+        }
+      }
+    },
+    "Still running": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Läuft noch"
+          }
+        }
+      }
+    },
+    "Stop": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stopp"
+          }
+        }
+      }
+    },
+    "Stop Timer": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Timer stoppen"
+          }
+        }
+      }
+    },
+    "Stop Timer at %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Timer um %@ stoppen"
+          }
+        }
+      }
+    },
+    "Stop the timer (⌘↩)": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Timer stoppen (⌘↩)"
+          }
+        }
+      }
+    },
+    "Stop this timer and start another task": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diesen Timer stoppen und eine andere Aufgabe starten"
+          }
+        }
+      }
+    },
+    "Stops the running timer and starts this task": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stoppt den laufenden Timer und startet diese Aufgabe"
+          }
+        }
+      }
+    },
+    "Switch": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wechseln"
+          }
+        }
+      }
+    },
+    "Switch Task": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aufgabe wechseln"
+          }
+        }
+      }
+    },
+    "Switch to This Task": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zu dieser Aufgabe wechseln"
+          }
+        }
+      }
+    },
+    "Switch…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wechseln …"
+          }
+        }
+      }
+    },
+    "Synced %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stand %@"
+          }
+        }
+      }
+    },
+    "Syncing…": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abgleich läuft …"
+          }
+        }
+      }
+    },
+    "Tags": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Schlagwörter"
+          }
+        }
+      }
+    },
+    "Test Connection": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Verbindung testen"
+          }
+        }
+      }
+    },
+    "That did not work.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das hat nicht geklappt."
+          }
+        }
+      }
+    },
+    "The API password is the older sign-in method. Newer Kimai versions only accept API tokens, which you create in Kimai under your profile › API access.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das API-Passwort ist die ältere Anmeldemethode. Neuere Kimai-Versionen akzeptieren nur noch API-Tokens, die du in Kimai unter deinem Profil › API-Zugang erstellst."
+          }
+        }
+      }
+    },
+    "The API token could not be saved to the Keychain.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das API-Token konnte nicht im Schlüsselbund gespeichert werden."
+          }
+        }
+      }
+    },
+    "The Kimai server cannot be reached. Check the address and your network.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der Kimai-Server ist nicht erreichbar. Prüfe die Adresse und dein Netzwerk."
+          }
+        }
+      }
+    },
+    "The connection failed while “%@” was being stopped. Check in Kimai whether it is still running.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Verbindung ist abgebrochen, während „%@“ gestoppt wurde. Prüfe in Kimai, ob der Timer noch läuft."
+          }
+        }
+      }
+    },
+    "The end has to be after the start.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Das Ende muss nach dem Start liegen."
+          }
+        }
+      }
+    },
+    "The entry will be removed from Kimai. This cannot be undone.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der Eintrag wird aus Kimai entfernt. Das lässt sich nicht widerrufen."
+          }
+        }
+      }
+    },
+    "The new timer is running, but the previous one could not be ended cleanly: %@ Please check its end time.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der neue Timer läuft, aber der vorherige konnte nicht sauber beendet werden: %@ Bitte prüfe dessen Endzeit."
+          }
+        }
+      }
+    },
+    "The request was cancelled.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Anfrage wurde abgebrochen."
+          }
+        }
+      }
+    },
+    "The running timer will be stopped at %@.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der laufende Timer wird um %@ gestoppt."
+          }
+        }
+      }
+    },
+    "The server address is not valid.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Serveradresse ist ungültig."
+          }
+        }
+      }
+    },
+    "The server did not answer like Kimai. Check the server address.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der Server hat nicht wie Kimai geantwortet. Prüfe die Serveradresse."
+          }
+        }
+      }
+    },
+    "The start you chose is before the running timer began (%@). Choose a later start, or stop the running timer first.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der gewählte Start liegt vor dem Beginn des laufenden Timers (%@). Wähle einen späteren Start oder stoppe zuerst den laufenden Timer."
+          }
+        }
+      }
+    },
+    "The time zone of your Kimai profile is not known yet, so times cannot be saved reliably. Check the connection and try again.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Zeitzone deines Kimai-Profils ist noch nicht bekannt, deshalb lassen sich Zeiten nicht zuverlässig speichern. Prüfe die Verbindung und versuche es erneut."
+          }
+        }
+      }
+    },
+    "The timer is stopped at the time you choose. Cancel keeps the timer running.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der Timer wird zur gewählten Zeit gestoppt. Mit „Abbrechen“ läuft er weiter."
+          }
+        }
+      }
+    },
+    "The timer “%@” kept running since %@. What should happen with the time you were away?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Der Timer „%1$@“ lief seit %2$@ weiter. Was soll mit der Zeit deiner Abwesenheit geschehen?"
+          }
+        }
+      }
+    },
+    "This Mac is offline. Timers can only be started, stopped or changed while Kimai is reachable.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dieser Mac ist offline. Timer lassen sich nur starten, stoppen oder ändern, wenn Kimai erreichbar ist."
+          }
+        }
+      }
+    },
+    "This Week": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diese Woche"
+          }
+        }
+      }
+    },
+    "This entry was exported. Kimai may refuse changes.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dieser Eintrag wurde exportiert. Kimai lehnt Änderungen möglicherweise ab."
+          }
+        }
+      }
+    },
+    "Timer": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Timer"
+          }
+        }
+      }
+    },
+    "Times are shown in this Mac's time zone (%@). Your Kimai profile uses %@.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zeiten werden in der Zeitzone dieses Macs angezeigt (%1$@). Dein Kimai-Profil verwendet %2$@."
+          }
+        }
+      }
+    },
+    "Today": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Heute"
+          }
+        }
+      }
+    },
+    "Total": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Summe"
+          }
+        }
+      }
+    },
+    "Tracking is stopped: “%@” was ended at %@ and could not be continued automatically. Start it again to keep tracking.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Die Zeiterfassung ist gestoppt: „%1$@“ wurde um %2$@ beendet und konnte nicht automatisch fortgesetzt werden. Starte die Aufgabe erneut, um weiter zu erfassen."
+          }
+        }
+      }
+    },
+    "User name": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Benutzername"
+          }
+        }
+      }
+    },
+    "User name and API password": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Benutzername und API-Passwort"
+          }
+        }
+      }
+    },
+    "What are you working on?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Woran arbeitest du?"
+          }
+        }
+      }
+    },
+    "What did you work on?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Woran hast du gearbeitet?"
+          }
+        }
+      }
+    },
+    "When did you start?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wann hast du angefangen?"
+          }
+        }
+      }
+    },
+    "When did you stop working?": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wann hast du aufgehört zu arbeiten?"
+          }
+        }
+      }
+    },
+    "When you come back, you decide whether the time away stays on the timer. Nothing is removed automatically.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wenn ein Timer läuft, entscheidest du nach deiner Rückkehr, ob die Abwesenheit mitgezählt wird. Zeiten werden nie automatisch entfernt."
+          }
+        }
+      }
+    },
+    "Without https the token is sent unencrypted. Use this only on a network you trust.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ohne https wird das Token unverschlüsselt übertragen. Nutze das nur in einem Netzwerk, dem du vertraust."
+          }
+        }
+      }
+    },
+    "Yesterday": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gestern"
+          }
+        }
+      }
+    },
+    "You were away for %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Du warst %@ weg"
+          }
+        }
+      }
+    },
+    "Your Kimai account is not allowed to do this.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dein Kimai-Konto darf das nicht."
+          }
+        }
+      }
+    },
+    "macOS did not allow this. Move Kimai Timer to the Applications folder and try again.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "macOS hat das nicht erlaubt. Bewege Kimai Timer in den Ordner „Programme“ und versuche es erneut."
+          }
+        }
+      }
+    },
+    "since %@": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "seit %@"
+          }
+        }
+      }
+    },
+    "“%@” (%@) will be removed from Kimai. This cannot be undone.": {
+      "localizations": {
+        "de": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„%1$@“ (%2$@) wird aus Kimai entfernt. Das lässt sich nicht widerrufen."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
