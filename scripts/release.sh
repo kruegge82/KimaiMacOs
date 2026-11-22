@@ -18,7 +18,19 @@ xcodebuild -project KimaiTimer.xcodeproj -scheme KimaiTimer -configuration Relea
 
 APP="$DERIVED/Build/Products/Release/Kimai Timer.app"
 VERSION=$(/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" "$APP/Contents/Info.plist")
+
+# An unstripped binary carries debug references with the absolute path of this checkout, and
+# with it the name of the account that built it. Strip them, then sign again (ad hoc).
+strip -S -x "$APP/Contents/MacOS/Kimai Timer"
+codesign --force --sign - --options runtime --entitlements Config/KimaiTimer.entitlements "$APP"
 codesign --verify --deep --strict "$APP"
+
+# Refuse to package anything that still mentions this machine.
+if grep -r -a -q -e "$HOME" -e "/Users/" "$APP"; then
+    echo "error: the app bundle contains local paths; not packaging." >&2
+    grep -r -a -l -e "$HOME" -e "/Users/" "$APP" >&2
+    exit 1
+fi
 
 ZIP="$OUT/Kimai-Timer-$VERSION.zip"
 ditto -c -k --keepParent "$APP" "$ZIP"
