@@ -2,7 +2,8 @@
 # Builds the distributable archive: a universal (Apple silicon + Intel) Release build,
 # signed ad hoc so that no personal signing identity ends up in the download.
 # Usage: scripts/release.sh
-# Result: build/release/Kimai-Timer-<version>.zip and its SHA-256 checksum.
+# Result: build/release/Kimai-Timer-<version>.zip, the same archive as Kimai-Timer.zip
+# (stable name for the "latest" download link) and SHA-256 checksums for both.
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
@@ -34,5 +35,7 @@ fi
 
 ZIP="$OUT/Kimai-Timer-$VERSION.zip"
 ditto -c -k --keepParent "$APP" "$ZIP"
-(cd "$OUT" && shasum -a 256 "$(basename "$ZIP")" | tee "$(basename "$ZIP").sha256")
+cp "$ZIP" "$OUT/Kimai-Timer.zip"
+(cd "$OUT" && shasum -a 256 "$(basename "$ZIP")" | tee "$(basename "$ZIP").sha256" \
+    && shasum -a 256 Kimai-Timer.zip > Kimai-Timer.zip.sha256)
 echo "Archive: $(pwd)/$ZIP"

@@ -35,13 +35,35 @@ Kimai Timer ist in Swift und SwiftUI geschrieben. Die App spricht direkt mit der
 
 ## Installation
 
-1. `Kimai-Timer-<Version>.zip` aus dem [aktuellen Release](https://github.com/kruegge82/KimaiMacOs/releases/latest) laden.
-2. Entpacken und **Kimai Timer** in den Ordner „Programme“ bewegen.
-3. Öffnen. Das Release ist nicht von Apple notarisiert, deshalb blockiert macOS den ersten Start:
-   **Systemeinstellungen › Datenschutz & Sicherheit** öffnen, nach unten scrollen und bei Kimai Timer **Dennoch öffnen** wählen.
-   Alternativ im Terminal: `xattr -dr com.apple.quarantine "/Applications/Kimai Timer.app"`.
+Das Release ist ad hoc signiert und **nicht von Apple notarisiert** (dafür wäre eine kostenpflichtige Apple-Developer-Mitgliedschaft nötig). macOS öffnet eine mit dem Browser geladene Kopie deshalb erst, nachdem du sie einmal freigegeben hast. Such dir einen Weg aus:
 
-Wer keine heruntergeladene Binärdatei starten möchte, kann die App mit einem Befehl [selbst bauen](#aus-dem-quellcode-bauen).
+### Weg A – im Browser laden
+
+1. `Kimai-Timer.zip` aus dem [aktuellen Release](https://github.com/kruegge82/KimaiMacOs/releases/latest) laden, entpacken und **Kimai Timer** in den Ordner „Programme“ bewegen.
+2. Einmal öffnen. macOS meldet *„Apple konnte nicht überprüfen, ob ‚Kimai Timer‘ frei von Schadsoftware ist …“* und bietet nur **Fertig** und **In den Papierkorb legen** an. **Fertig** wählen – in diesem Dialog gibt es keine Schaltfläche zum Öffnen.
+3. **Systemeinstellungen › Datenschutz & Sicherheit** öffnen und ganz nach unten zum Abschnitt **Sicherheit** scrollen. Dort steht *„‚Kimai Timer‘ wurde blockiert, um deinen Mac zu schützen“* mit der Schaltfläche **Dennoch öffnen**. Anklicken und mit Passwort oder Touch ID bestätigen.
+   Die Schaltfläche erscheint erst nach Schritt 2 und verschwindet nach etwa einer Stunde wieder; ist sie weg, Schritt 2 wiederholen.
+
+Danach startet die App ganz normal.
+
+### Weg B – per Terminal installieren
+
+Mit `curl` geladene Dateien landen nicht in der Quarantäne, die Freigabe entfällt:
+
+```sh
+curl -L -o /tmp/Kimai-Timer.zip https://github.com/kruegge82/KimaiMacOs/releases/latest/download/Kimai-Timer.zip \
+  && ditto -x -k /tmp/Kimai-Timer.zip /Applications \
+  && open "/Applications/Kimai Timer.app"
+```
+
+Schon mit dem Browser geladen? Dann entfernt dieser Befehl die Quarantäne-Markierung:
+`xattr -dr com.apple.quarantine "/Applications/Kimai Timer.app"`
+
+Beide Varianten überspringen Apples Schadsoftware-Prüfung; nutze sie also nur für einen Download, dem du vertraust. Jedes Release nennt die SHA-256-Prüfsumme des Archivs.
+
+### Weg C – selbst bauen
+
+[Aus dem Quellcode bauen](#aus-dem-quellcode-bauen) geht mit einem Befehl und ergibt eine App, die ohne jede Warnung startet.
 
 ## Erste Schritte
 

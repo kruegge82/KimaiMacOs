@@ -35,13 +35,35 @@ Kimai Timer is written in Swift and SwiftUI. It talks directly to the REST API o
 
 ## Installation
 
-1. Download `Kimai-Timer-<version>.zip` from the [latest release](https://github.com/kruegge82/KimaiMacOs/releases/latest).
-2. Unzip it and move **Kimai Timer** to your Applications folder.
-3. Open it. The release is not notarized by Apple, so macOS blocks the first launch:
-   open **System Settings › Privacy & Security**, scroll down and choose **Open Anyway** for Kimai Timer.
-   Alternatively run `xattr -dr com.apple.quarantine "/Applications/Kimai Timer.app"` in Terminal.
+The release is signed ad hoc and **not notarized by Apple** (that requires a paid Apple Developer membership). macOS therefore refuses to open a copy downloaded with a browser until you allow it once. Pick whichever way you prefer:
 
-If you prefer not to run a downloaded binary, [build the app yourself](#building-from-source); it takes one command.
+### Option A – download in the browser
+
+1. Download `Kimai-Timer.zip` from the [latest release](https://github.com/kruegge82/KimaiMacOs/releases/latest), unzip it and move **Kimai Timer** to your Applications folder.
+2. Open it once. macOS shows *"Apple could not verify 'Kimai Timer' is free of malware…"* with only **Done** and **Move to Trash**. Choose **Done** – there is no "open" button in this dialog.
+3. Open **System Settings › Privacy & Security** and scroll all the way down to the **Security** section. There you find *"Kimai Timer" was blocked to protect your Mac* with the button **Open Anyway**. Click it and confirm with your password or Touch ID.
+   The button only appears after step 2 and disappears again after about an hour; if it is gone, repeat step 2.
+
+From then on the app opens normally.
+
+### Option B – install with Terminal
+
+Files downloaded with `curl` are not put into quarantine, so no approval step is needed:
+
+```sh
+curl -L -o /tmp/Kimai-Timer.zip https://github.com/kruegge82/KimaiMacOs/releases/latest/download/Kimai-Timer.zip \
+  && ditto -x -k /tmp/Kimai-Timer.zip /Applications \
+  && open "/Applications/Kimai Timer.app"
+```
+
+Already downloaded with the browser? This removes the quarantine mark instead:
+`xattr -dr com.apple.quarantine "/Applications/Kimai Timer.app"`
+
+Both variants skip Apple's malware check, so only use a download you trust; each release lists the SHA-256 checksum of the archive.
+
+### Option C – build it yourself
+
+[Building from source](#building-from-source) takes one command and produces an app that opens without any warning.
 
 ## Getting started
 
